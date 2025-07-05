@@ -27,6 +27,30 @@ header li{
     top: 32px;
     margin-right:40px;
 }
+.sign-in{
+    position: relative;
+    top: 30px;
+    left: 350px;
+    width: 95px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 5px;
+}
+.register{
+    position: relative;
+    top: 30px;
+    left: 380px;
+    width: 105px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 5px;
+}
+.sign-in:hover{
+    transform: scale(1.25);
+}
+.register:hover{
+    transform: scale(1.25);
+}
 header a{
     display: block;
     text-decoration: none;
@@ -35,8 +59,38 @@ header a{
     font-weight: bold;
     padding:15px ;
 }
-header a:hover{
+header ul li:not(:first-child) a:hover{
     background-color: gray;
     border-radius: 5px;
     color: white;
+    transform: scale(1.25);
+}
+header img:hover{
+    transform: scale(1.25);
+}
+.infomation{
+    height: 600px;
+}
+.info-ul{
+    display:flex;
+}
+.info-li-img{
+    width: 200px;
+    height:200px;
+    margin: 50px;
+    border-radius: 10px;
+}
+.info-li-p{
+    color: white;
+    margin-top:20px;
+    margin-left: 50px;
+    padding: 50px;
+    line-height: 1.5;
+    list-style: none;
+}
+.info-li-img:hover{
+    transform: scale(1.25);
+}
+.info-li-p:hover{
+    transform: scale(1.1);
 }
