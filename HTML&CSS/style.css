@@ -106,3 +106,53 @@ hr{
     background-color: white;
     margin: 50px;
 }
+.thanhvien-ul{
+    text-decoration: none;
+    display: flex;
+}
+.card-laibang{
+    background-color: white;
+    height: 550px;
+    width: 380px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 50px;
+}
+.card-laibang img{
+    width: 280px;
+    height: 250px;
+    position: relative;
+    top: 49px;
+    left:49px;
+    border-radius: 10px;
+}
+.card-laibang p{
+    margin: 10px;
+    line-height: 1.5;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    top: 60px;
+    border: solid;
+    border-color: orange;
+    background-color: orange;
+    border-radius: 10px ;
+}
+.card-laibang h1{
+position: relative;
+top: 60px;
+left: 50px;
+text-align: center;
+border: solid;
+border-color: orange;
+border-width: 20px;
+background-color: orange;
+width:240px;
+border-radius: 10px;
+}
+.card-a{
+    text-decoration: none;
+}
+.card-laibang:hover{
+    transform: scale(1.1);
+}
