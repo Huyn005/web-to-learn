@@ -134,8 +134,8 @@ hr{
     position: relative;
     top: 60px;
     border: solid;
-    border-color: orange;
-    background-color: orange;
+    border-color: rgb(255, 232, 131);
+    background-color:orange;
     border-radius: 10px ;
 }
 .card-laibang h1{
@@ -155,4 +155,5 @@ border-radius: 10px;
 }
 .card-laibang:hover{
     transform: scale(1.1);
+    color: aliceblue;
 }
